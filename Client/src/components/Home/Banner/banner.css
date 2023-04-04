@@ -1,0 +1,38 @@
+.banner-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  z-index: 1;
+}
+
+.home-banner .banner-item {
+  background-color: #fff;
+}
+
+.banner-content {
+  color: #011a41;
+}
+
+.banner-content p {
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .home-banner .banner-item {
+    position: relative;
+    min-height: 450px;
+  }
+
+  .home-banner .banner-item img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

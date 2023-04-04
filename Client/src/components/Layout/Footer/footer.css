@@ -1,0 +1,71 @@
+.footer-main {
+  position: relative;
+  background-color: #011a41;
+  margin-top: 70px;
+}
+
+.footer-main h4 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 600 !important;
+}
+
+.footer-main .btn.btn-link {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
+  color: var(--light);
+  font-weight: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-main .btn.btn-link:hover {
+  color: var(--primary-color);
+  letter-spacing: 1px;
+  box-shadow: none;
+}
+
+/* .footer-main .btn.btn-link::before {
+  position: relative;
+  content: '\f105';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  margin-right: 10px;
+} */
+
+/* hr */
+.footer__hr {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__top {
+  background: url('/public/images/hr_top.png'), #fff;
+  top: -70px;
+}
+
+/* brands */
+.footer-brands {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-brands svg {
+  width: 12px;
+}
+
+@media (max-width: 767.9px) {
+  .footer-item-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

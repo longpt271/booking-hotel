@@ -1,0 +1,10 @@
+.header_page img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .header_page img {
+    height: 80px;
+    object-fit: cover;
+  }
+}

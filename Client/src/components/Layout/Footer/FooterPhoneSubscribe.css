@@ -1,0 +1,9 @@
+.footer-btn-private {
+  background-color: #011a41;
+  color: white;
+  border-radius: 8px;
+}
+.footer-btn-private:hover {
+  background-color: #011a41;
+  color: var(--primary-color);
+}

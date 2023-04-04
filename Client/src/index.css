@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #66cf28;
+  --primary-color-hover: #008009;
+  --secondary-color: #2f312e;
+  --secondary-color-hover: #2e4125;
+  /* #013580 */
+  --yellow: #f8f0ca;
+  --white: #fff;
+  --black: #000;
+  --gray: #ccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* CSS scroll bar */
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--gray);
+  border-radius: 50px;
+}
+
+/* Xóa mũi tên của input number*/
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+/* CSS btn mặc định */
+.btn-private {
+  background-color: #2d4271;
+  color: #febb02;
+  font-weight: 400;
+
+  padding: 8px 8px;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-private:hover {
+  background-color: var(--secondary-color-hover);
+}
+
+/* radius của input form control */
+.form-control {
+  border-radius: 8px;
+}
+
+/* CSS điểm rate point */
+.rate-point {
+  background-color: #013580;
+  color: white;
+  font-weight: 600;
+
+  border-radius: 8px;
+  height: fit-content;
+  padding: 4px 10px;
+}
+
+/* CSS center */
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

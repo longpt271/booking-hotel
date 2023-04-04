@@ -1,0 +1,40 @@
+/* css sections */
+#subscribe {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  font-weight: 300;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.subscribe__container {
+  text-align: center;
+}
+
+.subscribe__container h2 {
+  font-weight: 600;
+}
+
+.subscribe__container p {
+  padding: 10px 0 5px;
+}
+
+.subscribe__hr {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscribe__top {
+  background: url(./img/grunge-stripe.png);
+  top: -100px;
+}
+
+.subscribe__bottom {
+  background: url(./img/grunge-stripe-2.png);
+  transform: scaleY(-1);
+}

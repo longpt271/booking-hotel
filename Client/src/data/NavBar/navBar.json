@@ -1,0 +1,27 @@
+[
+  {
+    "type": "Chỗ ở",
+    "icon": "fa-bed",
+    "active": true
+  },
+  {
+    "type": "Vận chuyển",
+    "icon": "fa-plane",
+    "active": false
+  },
+  {
+    "type": "Hoạt động và giải trí",
+    "icon": "fa-car",
+    "active": false
+  },
+  {
+    "type": "Combo tiết kiệm",
+    "icon": "fa-bed",
+    "active": false
+  },
+  {
+    "type": "Tour du lịch trọn gói",
+    "icon": "fa-taxi",
+    "active": false
+  }
+]

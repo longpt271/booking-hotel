@@ -1,0 +1,23 @@
+.subscribe-input__phone {
+  border: none;
+  width: 320px;
+  height: 46px;
+  border-radius: 5px;
+
+  padding-left: 8px;
+}
+
+.subscribe-input__phone::placeholder {
+  font-size: 13px;
+  color: #858995;
+}
+
+.subscribe-input__phone:focus {
+  outline: none;
+}
+
+.btn-subscribe {
+  height: 46px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+}

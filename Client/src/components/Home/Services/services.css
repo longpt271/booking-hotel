@@ -1,0 +1,16 @@
+.why-item {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.home-services {
+  color: #2d4271;
+}
+
+.why-item__title {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.icon--why {
+  font-size: 3rem;
+}

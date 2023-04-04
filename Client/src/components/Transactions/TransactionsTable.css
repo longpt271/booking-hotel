@@ -1,0 +1,46 @@
+.trans-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.trans-table td,
+.trans-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.trans-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.trans-table tr:hover {
+  background-color: #ddd;
+}
+
+.trans-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #32a4c1;
+  color: white;
+}
+
+.cellWithStatus {
+  padding: 5px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.cellWithStatus.Booked {
+  background-color: #f69685;
+  color: #388640;
+}
+.cellWithStatus.Checkin {
+  background-color: #39d139;
+  color: #0c5500;
+}
+.cellWithStatus.Checkout {
+  background-color: #d3d0f2;
+  color: #298d30;
+}

@@ -1,0 +1,10 @@
+.wrap-trans {
+  min-height: 60vh;
+  padding: 20px 0 50px;
+}
+
+.wrap-trans b {
+  display: inline-block;
+  font-size: 20px;
+  padding-bottom: 10px;
+}

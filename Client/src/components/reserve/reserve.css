@@ -1,0 +1,80 @@
+.reserve {
+  padding: 10px 0;
+}
+
+.reserve b {
+  font-size: 23px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.rContainer {
+  display: flex;
+  width: 100%;
+  gap: 60px;
+}
+
+/* .rDates {
+  background-color: blanchedalmond;
+} */
+
+.rInfo {
+  flex: 1;
+  /* background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  gap: 5px; */
+}
+
+.rRoom {
+  /* background-color: goldenrod; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.rTotal {
+  display: flex;
+  align-items: center;
+  /* background-color: wheat; */
+}
+
+.rTotal select {
+  width: 250px;
+  padding: 8px 5px;
+  margin-right: 100px;
+
+  outline: none;
+  border-radius: 5px;
+  border-color: #ccc;
+  background-color: #efefef;
+}
+
+.rButton {
+  padding: 15px 35px;
+  font-weight: bold;
+}
+
+@media (max-width: 767.9px) {
+  .rContainer {
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 30px;
+  }
+
+  .rTotal {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .rTotal select {
+    align-self: self-start;
+    margin-right: 0;
+  }
+
+  .rTotal .wrapRBtn,
+  .rButton {
+    width: 100%;
+  }
+}

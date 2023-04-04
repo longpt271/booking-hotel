@@ -1,0 +1,68 @@
+/* css select rooms */
+.rItem {
+  width: 50%;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  padding-right: 100px;
+}
+
+.rItemInfo {
+  flex: 1;
+}
+
+.rTitle {
+  font-weight: 500;
+}
+
+.rDesc {
+  font-weight: 300;
+}
+
+.rMax {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rMax b {
+  font-size: 15px;
+  padding: 0;
+}
+
+.rPrice {
+  font-weight: 500;
+}
+
+.rSelectRooms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  color: gray;
+
+  margin-top: 30px;
+}
+
+.roomCheckbox {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.roomCheckbox label,
+.roomCheckbox input {
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .rRoom {
+    flex-direction: column;
+  }
+  .rItem {
+    width: 100%;
+    padding-right: 0;
+  }
+}

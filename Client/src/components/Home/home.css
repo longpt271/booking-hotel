@@ -1,0 +1,14 @@
+.home-bg-wrap {
+  background-color: #fff;
+}
+
+.home-title {
+  text-align: center;
+}
+
+.hr {
+  background-color: #0abf54;
+  height: 2px;
+  width: 200px;
+  margin: 5px auto 36px; /* auto để căn giữa */
+}

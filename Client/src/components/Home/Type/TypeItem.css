@@ -1,0 +1,28 @@
+.type-item:hover {
+  cursor: pointer;
+}
+
+.type-item__content {
+  color: var(--black);
+}
+
+.type-item__content p {
+  font-weight: 700;
+  font-size: 1.2em;
+  text-transform: capitalize;
+
+  width: fit-content;
+  margin: 5px 0 0;
+}
+
+.type-item__content span {
+  margin: 0;
+}
+
+.img-type {
+  width: 100%;
+  height: 180px;
+
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}

@@ -1,0 +1,149 @@
+.search-list__item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-list__img {
+  width: 100%;
+  min-height: 250px;
+  height: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* CSS col 1 */
+.search-list__content {
+  margin: 5px 0;
+}
+
+.search-list__content h5 {
+  color: var(--second-main-color);
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.search-list__tag {
+  background-color: var(--primary-color-hover);
+  color: var(--white);
+
+  font-weight: 300;
+  width: fit-content;
+  padding: 3px 5px;
+  margin: 10px 0 6px;
+  border-radius: 5px;
+}
+
+.search-list__location {
+  margin-right: 5px;
+}
+
+.search-list__content b {
+  display: inline-block;
+  margin: 8px 0;
+}
+
+.search-list__cancel {
+  color: var(--green);
+  font-weight: 500;
+}
+
+.search-list__cancel span {
+  font-size: 15px;
+}
+/* CSS col 3 */
+.search-list__col3 {
+  height: 100%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.search-list__rate {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-list__rate span {
+  font-size: 18px;
+}
+
+.search-list__price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.search-list__price p {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.search-list__price span {
+  font-size: 15px;
+  color: #8c8c8c;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.search-list__price .price50per {
+  font-size: 20px;
+  text-decoration: line-through;
+}
+
+.search-list__price button {
+  width: 100%;
+  font-weight: 600;
+}
+
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .search-list__col3 {
+    display: none;
+  }
+}
+
+@media (max-width: 991.9px) {
+  .search-list__item {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .search-list__content h5 {
+    font-size: 20px;
+  }
+
+  .search-list__content b {
+    font-size: 15px;
+  }
+
+  .search-list__rate {
+    display: none;
+  }
+
+  .search-list__price {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .search-list__price button {
+    width: fit-content;
+  }
+
+  .search-list__col3 {
+    margin-left: 0;
+  }
+
+  .lowerThanMd {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .lowerThanXs {
+    display: none;
+  }
+}

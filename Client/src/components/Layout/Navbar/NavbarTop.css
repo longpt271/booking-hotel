@@ -1,0 +1,6 @@
+.top-bar {
+  z-index: 1031;
+  height: 30px;
+  border-bottom: 1px solid rgba(53, 94, 252, 0.07);
+  color: #ccc;
+}

@@ -1,0 +1,24 @@
+.subscribe-input__email {
+  border: none;
+  width: 320px;
+  height: 46px;
+  border-radius: 5px;
+
+  padding-left: 8px;
+}
+
+.subscribe-input__email::placeholder {
+  font-size: 13px;
+  color: #858995;
+}
+
+.subscribe-input__email:focus {
+  outline: none;
+}
+
+.btn-subscribe {
+  height: 46px;
+  border-radius: 5px;
+
+  font-size: 13px;
+}

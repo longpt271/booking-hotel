@@ -1,0 +1,54 @@
+nav button {
+  background-color: transparent;
+  font-style: italic;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+
+  border: none;
+}
+
+.dropdown-divider {
+  color: #eee;
+}
+
+.NavMain a {
+  text-decoration: none;
+}
+
+.NavMain button:hover,
+.NavMain button.active {
+  color: var(--primary-color);
+}
+
+.navIcon {
+  font-size: 0.9rem;
+  width: 16px;
+
+  margin-right: 0.5rem;
+}
+
+.logo_abs {
+  margin-right: 0;
+  letter-spacing: 0.1em;
+  font-size: 1rem;
+}
+
+@media (min-width: 991.98px) {
+  /* css vị trí Logo */
+  .logo_abs {
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar .navbar-collapse {
+    margin-top: 16px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 8px;
+  }
+}
